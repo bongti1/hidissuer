@@ -1,0 +1,29 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "id": "did:web:bongti1.github.io:hid-issuer",
+        "verificationMethod": [
+            {
+                "id": "did:web:bongti1.github.io:hid-issuer",
+                "type": "JsonWebKey2020",
+                "controller": "did:web:bongti1.github.io:hid-issuer",
+                "publicKeyJwk": {
+                    "kty": "OKP",
+                    "crv": "ed25519",
+                    "x": "4038ba50e29b12a3fa0b529d4c5f553e4a187daf53a7392be6b9217836ccf439"
+                }
+            }
+        ],
+        "proof": {
+            "c_nonce": "209aceb6ad6c4568c22cbdb45f605baddfcd24825cec0aabae015b5674848e19",
+            "signature": "5f28146eac89fbeec78d7bb0fa6c61c7133edcde7f18f3998957ed147accfe23903a116c69bcc79ce068cc9db0cbed3e1777e76926f3c7df2fc4896de53b200f"
+        },
+        "authentication": [
+            "did:web:bongti1.github.io:hid-issuer"
+        ],
+        "assertionMethod": [
+            "did:web:bongti1.github.io:hid-issuer"
+        ]
+    }
