@@ -16,10 +16,6 @@
                 }
             }
         ],
-        "proof": {
-            "c_nonce": "209aceb6ad6c4568c22cbdb45f605baddfcd24825cec0aabae015b5674848e19",
-            "signature": "5f28146eac89fbeec78d7bb0fa6c61c7133edcde7f18f3998957ed147accfe23903a116c69bcc79ce068cc9db0cbed3e1777e76926f3c7df2fc4896de53b200f"
-        },
         "authentication": [
             "did:web:bongti1.github.io:hid-issuer"
         ],
