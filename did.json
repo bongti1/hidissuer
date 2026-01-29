@@ -3,12 +3,12 @@
             "https://www.w3.org/ns/did/v1",
             "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "id": "did:web:bongti1.github.io:hid-issuer",
+        "id": "did:web:bongti1.github.io:hidissuer",
         "verificationMethod": [
             {
-                "id": "did:web:bongti1.github.io:hid-issuer",
+                "id": "did:web:bongti1.github.io:hidissuer",
                 "type": "JsonWebKey2020",
-                "controller": "did:web:bongti1.github.io:hid-issuer",
+                "controller": "did:web:bongti1.github.io:hidissuer",
                 "publicKeyJwk": {
                     "kty": "OKP",
                     "crv": "ed25519",
@@ -17,9 +17,9 @@
             }
         ],
         "authentication": [
-            "did:web:bongti1.github.io:hid-issuer"
+            "did:web:bongti1.github.io:hidissuer"
         ],
         "assertionMethod": [
-            "did:web:bongti1.github.io:hid-issuer"
+            "did:web:bongti1.github.io:hidissuer"
         ]
     }
