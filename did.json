@@ -1,9 +1,10 @@
 {
+        "alias": "hidissuer",
+        "id": "did:web:bongti1.github.io:hidissuer",
         "@context": [
             "https://www.w3.org/ns/did/v1",
             "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "id": "did:web:bongti1.github.io:hidissuer",
         "verificationMethod": [
             {
                 "id": "did:web:bongti1.github.io:hidissuer",
@@ -12,7 +13,7 @@
                 "publicKeyJwk": {
                     "kty": "OKP",
                     "crv": "ed25519",
-                    "x": "567f4c7246878b19701bbc22a4972ac0fe5901cb1e2d64637e7064d1e85b4910"
+                    "x": "70bc7ff106a773012bd16fbf793fe612273ddefc3f7ca40bc07c798db9280187"
                 }
             }
         ],
